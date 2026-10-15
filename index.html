@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM88</title>
+    
+    <!-- Thư viện icon Font Awesome (Miễn phí) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- THÊM THẺ NÀY ĐỂ BỌC TOÀN BỘ GIAO DIỆN -->
+    <div class="app-container"> 
+
+        <!-- 1. Header -->
+<header class="header">
+    <button class="menu-btn"><i class="fas fa-bars"></i></button>
+    
+    <div class="logo">
+        <!-- Chèn ảnh MM88 (image_6e14eb.png) -->
+        <img src="images/mm88.png" alt="MM88" class="logo-mm88">
+        
+        <!-- Dấu gạch phân cách -->
+        <span class="logo-divider">|</span>
+        
+        <!-- Chèn ảnh KJC (image_6e1504.png) -->
+        <img src="images/kjc.png" alt="KJC" class="logo-kjc">
+    </div>
+    
+    <div class="header-right">
+        <img src="images/vip.png" alt="VIP" class="logo-vip">
+    </div>
+</header>
+
+        <!-- 2. Banner -->
+<section class="banner-container">
+    <div class="banner-wrapper">
+        <!-- Chèn 6 ảnh banner của bạn vào đây -->
+        <img src="images/banner1.jpg" alt="Banner 1">
+        <img src="images/banner2.jpg" alt="Banner 2">
+        <img src="images/banner3.jpg" alt="Banner 3">
+        <img src="images/banner4.jpg" alt="Banner 4">
+        <img src="images/banner5.jpg" alt="Banner 5">
+        <img src="images/banner6.jpg" alt="Banner 6">
+    </div>
+    
+    <!-- Các chấm tròn điều hướng ở dưới -->
+    <div class="banner-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</section>
+
+        <!-- 3. Thanh thông báo -->
+        <div class="marquee" style="background: #eee; padding: 5px;">
+            <marquee>Chào mừng bạn đến với trang web...</marquee>
+        </div>
+
+        <!-- 4. Thao tác nhanh -->
+<section class="quick-actions">
+    
+    <!-- Cột trái: Nút Đăng nhập / Đăng ký -->
+    <div class="auth-buttons">
+        <button class="btn-login">ĐĂNG NHẬP</button>
+        <button class="btn-register">ĐĂNG KÝ</button>
+    </div>
+
+    <!-- Cột phải: Danh sách các icon -->
+    <div class="quick-icons">
+        <div class="icon-item">
+            <div class="icon-wrapper">
+                <!-- Icon Xem Live -->
+                <i class="fas fa-circle-play"></i>
+            </div>
+            <p>XEM LIVE</p>
+        </div>
+        
+        <div class="icon-item">
+            <div class="icon-wrapper">
+                <!-- Icon Tin tức -->
+                <i class="fas fa-bullhorn"></i>
+            </div>
+            <p>TIN TỨC</p>
+        </div>
+        
+        <div class="icon-item">
+            <div class="icon-wrapper">
+                <!-- Icon Hướng dẫn -->
+                <i class="fas fa-book-open"></i>
+            </div>
+            <p>HƯỚNG DẪN</p>
+        </div>
+        
+        <div class="icon-item">
+            <div class="icon-wrapper">
+                <!-- Icon Đại lý -->
+                <i class="fas fa-handshake"></i>
+                <span class="badge">+70%</span>
+            </div>
+            <p>ĐẠI LÝ</p>
+        </div>
+        
+        <div class="icon-item">
+            <div class="icon-wrapper">
+                <!-- Icon Giới thiệu -->
+                <i class="fas fa-users"></i>
+                <span class="badge">+276K</span>
+            </div>
+            <p>GIỚI THIỆU</p>
+        </div>
+    </div>
+    
+</section>
+
+        <!-- 5. Khu vực Game: Menu trái & Lưới game phải -->
+<section class="game-section">
+    
+    <!-- Cột trái: Thanh Menu Danh mục -->
+<div class="game-sidebar">
+    <div class="sidebar-item active">
+        <i class="fas fa-crown"></i>
+        <span>HOT NHẤT</span>
+    </div>
+    <div class="sidebar-item">
+        <i class="fas fa-life-ring"></i>
+        <span>CASINO</span>
+    </div>
+    <div class="sidebar-item">
+        <i class="fas fa-cash-register"></i> <!-- Icon thay thế cho Slot 777 -->
+        <span>NỔ HŨ</span>
+    </div>
+    <div class="sidebar-item">
+        <i class="fas fa-fish"></i>
+        <span>BẮN CÁ</span>
+    </div>
+    <div class="sidebar-item">
+        <i class="fas fa-clone"></i> <!-- Icon thay thế cho Game bài -->
+        <span>GAME BÀI</span>
+    </div>
+    <div class="sidebar-item">
+        <i class="fas fa-futbol"></i>
+        <span>THỂ THAO</span>
+    </div>
+    <div class="sidebar-item">
+        <i class="fas fa-kiwi-bird"></i> <!-- Icon chim thay thế cho Đá gà -->
+        <span>ĐÁ GÀ</span>
+    </div>
+    <div class="sidebar-item">
+        <i class="fas fa-dharmachakra"></i> <!-- Icon vòng quay thay cho Xổ số -->
+        <span>XỔ SỐ</span>
+    </div>
+    <div class="sidebar-item">
+        <i class="fas fa-gamepad"></i>
+        <span>ESPORTS</span>
+    </div>
+</div>
+
+    <!-- Cột phải: Lưới Game (Grid 3 cột) -->
+<div class="game-content">
+    
+    <!-- Thẻ Game 1 -->
+    <div class="game-card">
+        <!-- Thay bằng tên ảnh thực tế của bạn -->
+        <img src="images/SEX002.png" alt="SE Trực Tuyến">
+    </div>
+
+    <!-- Thẻ Game 2 -->
+    <div class="game-card">
+        <img src="images/DG0013.png" alt="DG Trực Tuyến">
+    </div>
+
+    <!-- Thẻ Game 3 -->
+    <div class="game-card">
+        <img src="images/SV3002.png" alt="SV388 Đá Gà">
+    </div>
+
+    <!-- Thẻ Game 4 -->
+    <div class="game-card">
+        <img src="images/SB0002.png" alt="Saba Thể Thao">
+    </div>
+    
+    <!-- Thẻ Game 5 -->
+    <div class="game-card">
+        <img src="images/CMD001.png" alt="Quyết Chiến">
+    </div>
+
+    <!-- Thẻ Game 6 -->
+    <div class="game-card">
+        <img src="images/DRS002.webp" alt="Tiếng Gọi">
+    </div>
+    <!-- Thẻ Game 7 -->
+    <div class="game-card">
+        <img src="images/FC0018.webp" alt="Saba Thể Thao">
+    </div>
+    
+    <!-- Thẻ Game 8 -->
+    <div class="game-card">
+        <img src="images/FC0027.webp" alt="Quyết Chiến">
+    </div>
+
+    <!-- Thẻ Game 9 -->
+    <div class="game-card">
+        <img src="images/GA0001.webp" alt="Tiếng Gọi">
+    </div>
+    <!-- Thẻ Game 10 -->
+    <div class="game-card">
+        <img src="images/JDB080.webp" alt="Saba Thể Thao">
+    </div>
+    
+    <!-- Thẻ Game 11 -->
+    <div class="game-card">
+        <img src="images/JDB083.png" alt="Quyết Chiến">
+    </div>
+
+    <!-- Thẻ Game 12 -->
+    <div class="game-card">
+        <img src="images/JDB141.webp" alt="Tiếng Gọi">
+    </div>
+    <!-- Thẻ Game 13 -->
+    <div class="game-card">
+        <img src="images/JDB141.webp" alt="Saba Thể Thao">
+    </div>
+    
+    <!-- Thẻ Game 14 -->
+    <div class="game-card">
+        <img src="images/JDB154.webp" alt="Quyết Chiến">
+    </div>
+
+    <!-- Thẻ Game 15 -->
+    <div class="game-card">
+        <img src="images/JL0002.webp" alt="Tiếng Gọi">
+    </div>
+    <!-- Thẻ Game 16 -->
+    <div class="game-card">
+        <img src="images/JL0004.png" alt="Saba Thể Thao">
+    </div>
+    
+    <!-- Thẻ Game 17 -->
+    <div class="game-card">
+        <img src="images/JL0005.png" alt="Quyết Chiến">
+    </div>
+
+    <!-- Thẻ Game 18 -->
+    <div class="game-card">
+        <img src="images/JL0007.png" alt="Tiếng Gọi">
+    </div>
+</div>
+</section>
+
+        <!-- 6. Thanh điều hướng dưới cùng -->
+<nav class="bottom-nav">
+    <div class="nav-item active">
+        <i class="fas fa-home"></i>
+        <span>TRANG CHỦ</span>
+    </div>
+    <div class="nav-item">
+        <i class="fas fa-gift"></i>
+        <span>KHUYẾN MÃI</span>
+    </div>
+    <div class="nav-item">
+        <!-- Có thể dùng fa-download hoặc fa-caret-square-down -->
+        <i class="fas fa-download"></i>
+        <span>TẢI APP</span>
+    </div>
+    <div class="nav-item">
+        <i class="fas fa-headset"></i>
+        <span>CSKH 24/7</span>
+    </div>
+    <div class="nav-item">
+        <i class="fas fa-book-open"></i>
+        <span>CẨM NANG</span>
+    </div>
+</nav>
+
+    </div> <!-- KẾT THÚC THẺ BỌC -->
+  <!-- ============================== -->
+        <!-- KHU VỰC POPUP ĐĂNG NHẬP / ĐĂNG KÝ -->
+<div id="auth-modal" class="auth-modal">
+    <div class="auth-modal-content">
+        
+        <!-- Nút Quay lại và Logo -->
+        <div class="auth-header">
+            <button class="btn-back" id="btn-close-modal">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="auth-logo">
+                <img src="images/mm88form.png" alt="MM88">
+                
+            </div>
+        </div>
+
+        <!-- Khu vực Đối tác -->
+        <div class="auth-partners">
+            <div class="partner-row">
+                <div class="partner-text">
+                    <strong>Đại Sứ Thương Hiệu</strong><br>
+                    Gareth Bale<br>
+                    Năm 2026-2027
+                </div>
+                <div class="partner-logos">
+                    <img src="images/chuky.png" alt="Signature">
+                    <span class="divider">|</span>
+                    <img src="images/mm88.png" alt="MM88">
+                </div>
+            </div>
+            <div class="partner-row">
+                <div class="partner-text">
+                    <strong>Đối Tác Chính Thức</strong><br>
+                    CLB Juventus & KJC<br>
+                    Năm 2025-2026
+                </div>
+                <div class="partner-logos">
+                    <img src="images/jj.svg" alt="Juventus">
+                    <span class="divider">|</span>
+                    <img src="images/kjc.png" alt="KJC">
+                </div>
+            </div>
+        </div>
+        <!-- ============================== -->
+        <form id="login-form" class="auth-form" style="display: none;">
+            <div class="input-group">
+                <i class="fas fa-user input-icon"></i>
+                <!-- Đã thêm required -->
+                <input type="text" placeholder="Tên người dùng" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-unlock-alt input-icon"></i>
+                <!-- Đã thêm required -->
+                <input type="password" placeholder="Mật khẩu" required>
+                <i class="fas fa-eye-slash input-icon-right"></i>
+            </div>
+            
+            <div class="input-group phone-group">
+                <div class="phone-prefix">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg" alt="VN">
+                    <span>+84</span>
+                </div>
+                <!-- Đã thêm maxlength="10" và required -->
+                <input type="tel" placeholder="Số điện thoại" maxlength="10" required>
+            </div>
+
+            <div class="form-options">
+                <label class="checkbox-container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <strong>Ghi nhớ mật khẩu</strong>
+                </label>
+                <p class="warning-text">Ghi nhớ mật khẩu tài khoản của bạn là rủi ro<br>Vì vậy hãy sử dụng thiết bị cá nhân</p>
+                <p class="notice-text">Vui lòng <span class="highlight">TỰ BẢO QUẢN THÔNG TIN TÀI KHOẢN</span> để đảm bảo an toàn cho tài khoản của bạn</p>
+            </div>
+
+            <button type="button" class="btn-submit" disabled>ĐĂNG NHẬP</button>
+            
+            <p class="switch-form-text">Bạn chưa có tài khoản? <span class="link-switch" data-target="register"> [Đăng ký]</span></p>
+        </form>
+
+        <!-- ============================== -->
+        <!-- FORM ĐĂNG KÝ -->
+        <!-- ============================== -->
+        <form id="register-form" class="auth-form" style="display: none;">
+            <div class="input-group">
+                <i class="fas fa-user input-icon"></i>
+                <!-- Đã thêm required -->
+                <input type="text" placeholder="Tên người dùng" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-unlock-alt input-icon"></i>
+                <!-- Đã thêm required -->
+                <input type="password" placeholder="Mật khẩu" required>
+                <i class="fas fa-eye-slash input-icon-right"></i>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-user-circle input-icon"></i>
+                <!-- Đã thêm required -->
+                <input type="text" placeholder="Họ và tên" required>
+            </div>
+            
+            <div class="input-group phone-group">
+                <div class="phone-prefix">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg" alt="VN">
+                    <span>+84</span>
+                </div>
+                <!-- Đã thêm maxlength="10" và required -->
+                <input type="tel" placeholder="Số điện thoại" maxlength="10" required>
+            </div>
+
+            <div class="form-options align-left">
+                <label class="checkbox-container red-checkbox">
+                    <!-- Đã thêm required -->
+                    <input type="checkbox" checked required>
+                    <span class="checkmark"></span>
+                    <strong style="color: #333;">Tôi đã đủ tuổi và đồng ý</strong> <a href="#" class="highlight" style="text-decoration: underline;">"Chính sách thành viên"</a>
+                </label>
+            </div>
+
+            <button type="button" class="btn-submit" disabled>ĐĂNG KÝ</button>
+            
+            <p class="switch-form-text">Bạn đã có tài khoản? <span class="link-switch" data-target="login"> [Đăng Nhập]</span></p>
+        </form>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
